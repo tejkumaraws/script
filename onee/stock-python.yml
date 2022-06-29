@@ -1,0 +1,16 @@
+name: stock-python
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy-base=1.21.2
+  - pip=21.2.4
+  - python=3.9.7
+  - pip:
+    - daal4py==2021.5.1
+    - scikit-learn==1.0.2
+    - nltk==3.7
+    - numpy==1.22.3
+    - pandas==1.4.2
+    - sigopt==8.3.0
+
